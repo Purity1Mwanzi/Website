@@ -1,0 +1,35 @@
+*{
+  font-family: "Uxum", "ui-serif", system-ui, -apple-system, BlinkMacSystemFont, "Times New Roman", Georgia, Garamond;
+  margin: 0 ;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden; /* This hides any overflow, preventing the background from appearing longer */
+}
+
+
+body {
+  background-image: url('/icons/bg.svg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed on scroll */
+  background-position: center; /* Centers the image */
+}
+
+body.light {
+  background-color: white;
+ 
+}
+
+body.dark {
+  background-color: black;
+  
+}
+
+
+
