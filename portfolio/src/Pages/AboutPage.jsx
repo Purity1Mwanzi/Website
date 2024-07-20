@@ -1,6 +1,6 @@
 import React from 'react'
-import About from '../componets/About'
-import PageLayout from '../componets/PageLayout'
+import About from '../components/About'
+import PageLayout from '../components/PageLayout'
 
 const AboutPage = () => {
   return (

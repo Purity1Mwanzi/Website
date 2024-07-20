@@ -1,6 +1,6 @@
 import React from 'react'
-import Contact from '../componets/Contact'
-import PageLayout from '../componets/PageLayout'
+import Contact from "../components/Contact"
+import PageLayout from '../components/PageLayout'
 
 const Contacts = () => {
   return (

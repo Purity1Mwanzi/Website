@@ -1,6 +1,6 @@
 import React from 'react'
-import PageLayout from '../componets/PageLayout'
-import Home from '../componets/Hero'
+import PageLayout from '../components/PageLayout'
+import Home from '../components/Hero'
 
 const Hero = () => {
   return (

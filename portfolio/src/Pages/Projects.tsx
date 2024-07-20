@@ -1,6 +1,6 @@
 import React from 'react'
-import PageLayout from '../componets/PageLayout'
-import Project from '../componets/Project'
+import PageLayout from '../components/PageLayout'
+import Project from '../components/Project'
 
 const Projects = () => {
   return (
