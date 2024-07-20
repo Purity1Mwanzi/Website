@@ -27,8 +27,7 @@ const Project = () => {
                 </div>
 
                 <p className="whitespace-pre-line text-xs font-bold">
-                    Meanwhile, this site is being built & designed with React,
-                    JavaScript, Tailwind CSS, GSAP & Figma
+                    Meanwhile, this site is being built & designed with React.js, Tailwind CSS, GSAP & Figma
                 </p>
             </div>
 
