@@ -24,9 +24,9 @@ const Home = () => {
         </Heading>
         
           <p className="text-center md:whitespace-pre-line mr-10 ml-10">
-            {`I am a frontend developer who loves to work on
-                the web. I am passionate about building simple
-                and elegant solutions to complex problems.`}
+            {`I am a full stack developer passionate about building scalable web applications.
+             I specialize in crafting end-to-end solutions, 
+             from robust backend architectures to intuitive user interfaces.`}
           </p>
           <div className="mt=0">
           

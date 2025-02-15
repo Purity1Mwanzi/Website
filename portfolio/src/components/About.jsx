@@ -15,8 +15,7 @@ const About = () => {
             </SubHeading>
     
             <Heading size="sm" dark className="font-bold">
-              a frontend developer with affinity for design, intuitive user
-              experience and pixel-perfect user interfaces
+            a full stack developer specializing in scalable applications, API design, and creating seamless user experiences
             </Heading>
     
             <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
