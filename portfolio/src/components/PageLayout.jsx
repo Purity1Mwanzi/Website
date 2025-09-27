@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const PageLayout = ({ children }) => {
   return (
     <main
-      className="min-h-screen w-full overflow-hidden bg-cover bg-no-repeat font-serif text-sm text dark:text-blue xs:text-lg"
+      className="min-h-screen w-full bg-cover bg-no-repeat font-serif text-sm text dark:text-blue xs:text-lg"
       style={{
         backgroundImage: " url('/icons/bg.svg')",
       }}
