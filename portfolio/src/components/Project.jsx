@@ -4,6 +4,7 @@ import { Align } from '../constants';
 import SubHeading from './SubHeading';
 import SplitText from './SplitText';
 import Heading from './Heading';
+import PropTypes from 'prop-types';
 
 // Dummy project data for demonstration
 const projects = [
@@ -30,6 +31,30 @@ const projects = [
     link: "#",
     image: "https://via.placeholder.com/600x400",
     tags: ["Design", "Figma"],
+  },
+  {
+    id: 4,
+    title: "Project Four",
+    description: "A comprehensive web application built with modern technologies.",
+    link: "#",
+    image: "https://via.placeholder.com/600x400",
+    tags: ["Vue.js", "Node.js"],
+  },
+  {
+    id: 5,
+    title: "Project Five",
+    description: "An innovative mobile-first design showcasing responsive layouts.",
+    link: "#",
+    image: "https://via.placeholder.com/600x400",
+    tags: ["React Native", "TypeScript"],
+  },
+  {
+    id: 6,
+    title: "Project Six",
+    description: "A data visualization dashboard with interactive components.",
+    link: "#",
+    image: "https://via.placeholder.com/600x400",
+    tags: ["D3.js", "Python", "API"],
   },
 ];
 
@@ -93,6 +118,17 @@ const ProjectCard = ({ project }) => {
   );
 };
 
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
+
 const Project = () => {
   return (
     <Section className="w-full items-start py-12">
@@ -111,16 +147,16 @@ const Project = () => {
         <div
           className="
             mt-8
-            flex flex-nowrap space-x-4 overflow-x-auto
+            flex flex-nowrap space-x-6 overflow-x-auto pb-4
             sm:grid sm:grid-cols-2 lg:grid-cols-3
-            sm:space-x-0 sm:gap-8
+            sm:space-x-0 sm:gap-8 sm:pb-0
           "
         >
           {projects.map((project) => (
             <div
               key={project.id}
               className="
-                w-72 flex-shrink-0
+                w-80 flex-shrink-0
                 sm:w-auto sm:flex-shrink
               "
             >
