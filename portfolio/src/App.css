@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  overflow: hidden; /* This hides any overflow, preventing the background from appearing longer */
+  overflow-x: hidden; /* Only hide horizontal overflow to prevent background issues */
 }
 
 
